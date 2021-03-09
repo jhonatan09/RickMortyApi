@@ -1,0 +1,107 @@
+.hidden {
+    display: none;
+}
+
+.bg {
+    background-color: #1E1E1E;
+}
+
+.modal-effect {
+    position: relative;
+    .active-blur {
+        filter: blur(4px);
+    }
+    .active-blur-loader{
+        background: rgb(0, 0, 0);
+        filter: blur(4px);
+    }
+}
+
+.all-body {
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    position: absolute;
+    top: 0;
+}
+
+.pages {
+    ul {
+        width: 100%;
+        display: flex;
+        list-style: none;
+        margin-top: 12%;
+        justify-content: center;
+        li {
+            margin: 1%;
+            height: 30px;
+            width: 30px;
+            color: #fff;
+            font-size: 1vw;
+            cursor: pointer;
+            &:hover {
+                color: #03c6e9;;
+            }
+        }
+    }
+}
+
+.search {
+    input,
+    button {
+        height: 42px;
+        border: 2px solid #FFFFFF;
+        background: transparent;
+        border-radius: 8px;
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 22px;
+        color: #fff;
+    }
+    input {  
+        width: 196px;
+        margin-right: 10px;
+        padding-left: 12px;
+       &::placeholder{
+            color:#fff;
+            font-size: 16px;
+            line-height: 22px;
+            text-align: left;
+       }
+    }
+    button {
+        width: 84px;
+        cursor: pointer;
+    }
+}
+
+.results {
+    .search {
+        display: flex;
+    justify-content: center;
+    margin-bottom: 4%;
+    }
+}
+
+.loading {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vw;
+    padding-top: 13%;
+    .loader-view {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p {
+            margin-top: 4%;
+            color: #fff;
+            font-size: 22px;
+            text-align: center;
+        }
+    }
+}

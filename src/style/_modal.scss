@@ -1,0 +1,132 @@
+.modal {
+    position: absolute;
+    top: 20%;
+    left: 22%;
+    display: flex;
+    width: 57%;
+    height: 718px;
+    h3,
+    p,
+    span {
+        color: #fff;
+    }
+    &_left {
+        width: 37%;
+        background: rgba(41,41,41,0.6);
+        border-radius: 8px 0 0 8px;
+        img {
+            width: 100%;
+            border-radius: 8px 8px 0 0;
+            margin-bottom: -4px;
+            height: 600px;
+        }
+        .text {
+            height: 59px;
+            padding: 0 5% 1%;
+            background: rgba(41,41,41,0.9);
+            h3 {
+                font-size: 20px;
+                line-height: 25px;
+            }
+            span{
+                font-size: 12px;
+            }
+        }
+        button {
+            margin: 3%;
+            border: 2px solid #fff;
+            background: transparent;
+            width: 90px;
+            padding: 2%;
+            color: #fff;
+            border-radius: 8px;
+            cursor: pointer;
+            &:hover {
+                background: rgba(255, 255, 255, 0.4);
+            }
+        }
+    }
+    &_right {
+        width: 63%;
+        padding: 5%;
+        background-color: #000000;
+        border-radius: 0 8px 8px 0;
+        .planet-name {
+            font-family: Nunito;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 28px;
+            line-height: 38px;
+        }
+    }
+    &_texts {
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        h3 {
+            color: #CBD736;
+            font-family: Nunito;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 18px;
+            letter-spacing: 0.65em;
+            margin-bottom: 2%;
+        }
+        p {
+            font-family: Nunito;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 22px;
+            color: #D3D3D3;
+        }
+        .second,
+        .third {
+            p {
+                display: flex;
+            flex-direction: column;
+            }
+        }
+        .planet {
+            font-family: Nunito;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 19px;
+            color: #8C8C8C;
+            &-dimension {
+                font-size: 18px;
+                line-height: 25px;
+                color: #D3D3D3;
+            }
+        }
+        .reidents {
+            font-size: 14px;
+            line-height: 19px;
+            color: #8C8C8C;
+        }
+    
+    }
+    @media (max-width: 767px) {
+        flex-direction: column;
+        &_left{
+            width: 100%;
+            border-radius: 8px 8px 0 8px;
+            img {
+                height: 300px;
+            }
+            .text {
+                height: 67px;
+                padding: 2% 5% 1%;
+            }
+        }
+        &_right{
+            width: 100%;
+            border-radius: 0 8px 8px 8px;
+            min-height: 500px;
+        }
+    }
+    
+}
