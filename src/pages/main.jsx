@@ -15,10 +15,10 @@ const Main = () => {
             <div className={`main ${active? '': 'active-blur'} ${loader? 'active-blur-loader': ''}`}>
              <img className="logo" src={Logo} alt="logo rick and morty" />
                 <Switch>
-                    <Route exact path="/">
+                    <Route exact path="/inGaiaTest">
                        <Home />
                     </Route>
-                    <Route  path="/characters">
+                    <Route  path="/inGaiaTest/characters">
                        <Results />
                     </Route>
                 </Switch>
@@ -30,7 +30,7 @@ const Main = () => {
             }
             {loader ? <div className="loading">
                     <LoaderView  />
-                </div>: infos.length > 0 && <Redirect to="/characters" />
+                </div>: infos.length > 0 && <Redirect to="/inGaiaTest/characters" />
                 
             }
         </ div>
