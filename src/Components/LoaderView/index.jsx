@@ -1,13 +1,8 @@
-import React, {useContext} from 'react';
+import React from 'react';
 import ImgLoader from '../../image/loader_image.png';
-import {Redirect} from 'react-router-dom';
-import {DataContext} from '../../store';
 
-const LoaderView = ({loaderData}) => {
+const LoaderView = () => {
     
-    const {loader, setLoader} = useContext(DataContext)
-    
-
     return (
         <>
            

@@ -4,8 +4,6 @@ import {DataContext} from '../../store';
 const ModalChar = ({data}) => {
     const {setActive} = useContext(DataContext)
 
-    console.log(data)
-
     const [LastLocation] = useState(data.episode)
     const [LocationResidents] = useState(data.location.residents)
     const [OriginResidents] = useState(data.origin.residents)
@@ -13,11 +11,8 @@ const ModalChar = ({data}) => {
     const [OriginDimension] = useState(data.origin.dimension)
     const [LocationDimension] = useState(data.location.dimension)
 
-    console.log()
-    
-    console.log(LocationDimension)
     var last = [...LastLocation].pop();
-    // var residentsTotalLocations = LocationResidents.length;
+   
     
     const CloseModal = () => {
         setActive(true)
