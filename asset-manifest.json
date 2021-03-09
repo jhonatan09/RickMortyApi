@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/inGaiaTest/static/css/main.77ccecd8.chunk.css",
-    "main.js": "/inGaiaTest/static/js/main.0415ccf6.chunk.js",
-    "main.js.map": "/inGaiaTest/static/js/main.0415ccf6.chunk.js.map",
+    "main.css": "/inGaiaTest/static/css/main.8437f530.chunk.css",
+    "main.js": "/inGaiaTest/static/js/main.40f6e3a1.chunk.js",
+    "main.js.map": "/inGaiaTest/static/js/main.40f6e3a1.chunk.js.map",
     "runtime-main.js": "/inGaiaTest/static/js/runtime-main.8772ca2a.js",
     "runtime-main.js.map": "/inGaiaTest/static/js/runtime-main.8772ca2a.js.map",
-    "static/js/2.0378cfec.chunk.js": "/inGaiaTest/static/js/2.0378cfec.chunk.js",
-    "static/js/2.0378cfec.chunk.js.map": "/inGaiaTest/static/js/2.0378cfec.chunk.js.map",
+    "static/js/2.d24bc5fa.chunk.js": "/inGaiaTest/static/js/2.d24bc5fa.chunk.js",
+    "static/js/2.d24bc5fa.chunk.js.map": "/inGaiaTest/static/js/2.d24bc5fa.chunk.js.map",
     "index.html": "/inGaiaTest/index.html",
-    "static/css/main.77ccecd8.chunk.css.map": "/inGaiaTest/static/css/main.77ccecd8.chunk.css.map",
-    "static/js/2.0378cfec.chunk.js.LICENSE.txt": "/inGaiaTest/static/js/2.0378cfec.chunk.js.LICENSE.txt",
+    "static/css/main.8437f530.chunk.css.map": "/inGaiaTest/static/css/main.8437f530.chunk.css.map",
+    "static/js/2.d24bc5fa.chunk.js.LICENSE.txt": "/inGaiaTest/static/js/2.d24bc5fa.chunk.js.LICENSE.txt",
     "static/media/imports.scss": "/inGaiaTest/static/media/Background.1dc422cc.png",
     "static/media/loader_image.53b3d351.png": "/inGaiaTest/static/media/loader_image.53b3d351.png",
     "static/media/logo.adf74e0d.png": "/inGaiaTest/static/media/logo.adf74e0d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8772ca2a.js",
-    "static/js/2.0378cfec.chunk.js",
-    "static/css/main.77ccecd8.chunk.css",
-    "static/js/main.0415ccf6.chunk.js"
+    "static/js/2.d24bc5fa.chunk.js",
+    "static/css/main.8437f530.chunk.css",
+    "static/js/main.40f6e3a1.chunk.js"
   ]
 }
