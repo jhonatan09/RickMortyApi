@@ -1,4 +1,4 @@
-# RickApi with React
+# RickMortyApi is a project built with React and for API queries I used GraphQL
 
 # Image this project:
 
@@ -24,6 +24,6 @@
 
 
 # what's needed for run that project:
-    Open the code editor of your choice and change the path's from 'path = "/inGaiaTest"' to 'path = "/"'.
+    Open the code editor of your choice and change the path's from 'path = "/RickMortyApi"' to 'path = "/"'.
     Install node_modules: npm install.
     For execution: npm start.

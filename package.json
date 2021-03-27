@@ -2,7 +2,7 @@
   "name": "ingaia-test",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://jhonatan09.github.io/inGaiaTest/",
+  "homepage":"https://jhonatan09.github.io/RickMortyApi",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
